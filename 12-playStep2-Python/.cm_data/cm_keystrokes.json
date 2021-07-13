@@ -1,0 +1,123 @@
+{
+    "playstep2.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 21:59:59",
+            "keyStrokeInfo": "\r\n ",
+            "position": "37,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:00",
+            "keyStrokeInfo": "\t",
+            "position": "38,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 43,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:01",
+            "keyStrokeInfo": "def playStep2(hand, dice):\r\n\r\n\r\n    getMatch = matchNum(hand)\r\n\r\n    a, b, c = handToDice(hand)\r\n    orderedHand= diceToOrderedHand(a, b, c)\r\n\r\n    # Case 1\r\n    if getMatch == 3:\r\n        return hand, dice\r\n\r\n    # Case 2\r\n    elif getMatch == 2:\r\n        num1, num2, num3 = handToDice(orderedHand)\r\n\r\n        # Select the last digit of the dice\r\n        num4 = dice % 10\r\n\r\n\r\n        if num1 == num2:\r\n            newHand = diceToOrderedHand(num1, num2, num4)\r\n            return newHand, dice // 10\r\n\r\n        elif num1 == num3:\r\n            newHand = diceToOrderedHand(num1, num3, num4)\r\n            return newHand, dice // 10\r\n\r\n        else:\r\n            newHand = diceToOrderedHand(num3, num2, num4)\r\n            return newHand, dice // 10\r\n\r\n    # Case 3\r\n    else:\r\n        num1, num2, num3 = handToDice(orderedHand)\r\n\r\n\r\n\r\n        secondHalf = dice % 100\r\n        t1, t2, t3 = handToDice(num1 * 100 + secondHalf)\r\n        new_hand = diceToOrderedHand(t1, t2, t3)\r\n\r\n        return new_hand, dice // 100\r\n",
+            "position": "38,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:04",
+            "keyStrokeInfo": "",
+            "position": "82,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:05",
+            "keyStrokeInfo": "",
+            "position": "82,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:05",
+            "keyStrokeInfo": "",
+            "position": "82,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:05",
+            "keyStrokeInfo": "",
+            "position": "82,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:05",
+            "keyStrokeInfo": "",
+            "position": "82,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:06",
+            "keyStrokeInfo": "",
+            "position": "81,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:00:06",
+            "keyStrokeInfo": "",
+            "position": "80,37"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:09",
+            "keyStrokeInfo": "\r\n",
+            "position": "80,37"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:09",
+            "keyStrokeInfo": "\r\n",
+            "position": "81,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:10",
+            "keyStrokeInfo": "\tpass",
+            "position": "82,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 43,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:10",
+            "keyStrokeInfo": "",
+            "position": "38,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:10",
+            "keyStrokeInfo": " ",
+            "position": "38,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:17",
+            "keyStrokeInfo": "",
+            "position": "38,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:06:17",
+            "keyStrokeInfo": "",
+            "position": "37,23"
+        }
+    ]
+}
