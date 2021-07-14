@@ -1,0 +1,32 @@
+{
+    "islegaltriangle.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 16:26:50",
+            "keyStrokeInfo": "\r\n",
+            "position": "10,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 16:26:51",
+            "keyStrokeInfo": "\t",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 16:26:53",
+            "keyStrokeInfo": "def islegaltriangle(s1, s2, s3):\r\n    # if (s1,s2,s3):\r\n    #     return True\r\n    # else:\r\n    #     return False\r\n    \r\n    if s1>0 and s2>0 and s3>0:\r\n        if (s1 + s2 > s3) and  (s1 + s3 > s2) and  (s2 + s3 > s1):\r\n            return True\r\n        else:\r\n            return False\r\n    else:\r\n        return False",
+            "position": "11,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 16:27:01",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        }
+    ]
+}
