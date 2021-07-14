@@ -1,0 +1,39 @@
+{
+    "set_kth_digit.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 15:22:42",
+            "keyStrokeInfo": "def fun_set_kth_digit(n, k, d):\r\n    l=1\r\n    if(n<0):l=-1\r\n    n=str(n)\r\n    n=n[::-1]\r\n    m=n[:k]+str(d)+n[k+1:]\r\n    m=m[::-1]\r\n    return int(m)*l",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 15:22:47",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 15:22:48",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 15:38:45",
+            "keyStrokeInfo": "",
+            "position": "16,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 15:38:56",
+            "keyStrokeInfo": "\r\n",
+            "position": "16,20"
+        }
+    ]
+}
