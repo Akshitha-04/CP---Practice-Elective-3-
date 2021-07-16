@@ -1,0 +1,11 @@
+{
+    "applycaesarcipher.py": [
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 09:38:07",
+            "keyStrokeInfo": "# A Caesar Cipher is a simple cipher that works by shifting each letter in \r\n# the given message by a certain number. For example, if we shift the message \r\n# \"We Attack At Dawn\" by 1 letter, it becomes \"Xf Buubdl Bu Ebxo\"\r\n# Write the function applyCaesarCipher(message, shift) which shifts the given \r\n# message by shift letters. You are guaranteed that message is a string, and \r\n# that shift is an integer between -25 and 25. Capital letters should stay capital \r\n# and lowercase letters should stay lowercase, and non-letter characters should not be changed. \r\n# Note that \"Z\" wraps around to \"A\". So, for example:\r\n# assert(applyCaesarCipher(\"We Attack At Dawn\", 1) == \"Xf Buubdl Bu Ebxo\")\r\n# assert(applyCaesarCipher(\"zodiac\", -2) == \"xmbgya\")\r\n\r\n\r\ndef fun_applycaesarcipher(msg, shift):\r\n\tcipher = ''\r\n\tfor char in msg:\r\n\t\tif char == ' ':\r\n\t\t\t  cipher = cipher + char\r\n\t\telif  char.isupper():\r\n\t\t\t  cipher = cipher + chr((ord(char) + shift - 65) % 26 + 65)\r\n\t\telse:\r\n\t\t\t  cipher = cipher + chr((ord(char) + shift - 97) % 26 + 97)\r\n  \r\n\treturn cipher\r\n",
+            "position": "1,1"
+        }
+    ]
+}
