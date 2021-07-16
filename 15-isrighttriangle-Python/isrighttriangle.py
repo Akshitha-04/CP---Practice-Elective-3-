@@ -5,6 +5,12 @@
 # distance(x1, y1, x2, y2), which you might call several times. Also, remember to use
 # almostEqual (instead of ==) when comparing floats.
 
-def isrighttriangle(x1, y1, x2, y2, x3, y3):
-	# your code goes here
-	pass
+def isrighttriangle(X1, Y1, X2, Y2, X3, Y3):
+    A = (int(pow((X2 - X1), 2)) + int(pow((Y2 - Y1), 2)))
+    B = (int(pow((X3 - X2), 2)) + int(pow((Y3 - Y2), 2)))
+    C = (int(pow((X3 - X1), 2)) + int(pow((Y3 - Y1), 2)))
+    
+    if ((A > 0 and B > 0 and C > 0) and (A == (B + C) or B == (A + C) or C == (A + B))):
+        return True
+    else:
+        return False

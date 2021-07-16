@@ -1,0 +1,32 @@
+{
+    "isrighttriangle.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 10:00:37",
+            "keyStrokeInfo": "def isrighttriangle(X1, Y1, X2, Y2, X3, Y3):\r\n    A = (int(pow((X2 - X1), 2)) + int(pow((Y2 - Y1), 2)))\r\n    B = (int(pow((X3 - X2), 2)) + int(pow((Y3 - Y2), 2)))\r\n    C = (int(pow((X3 - X1), 2)) + int(pow((Y3 - Y1), 2)))\r\n    \r\n    if ((A > 0 and B > 0 and C > 0) and (A == (B + C) or B == (A + C) or C == (A + B))):\r\n        return True\r\n    else:\r\n        return False",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 10:00:43",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 10:00:44",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 10:00:45",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        }
+    ]
+}
