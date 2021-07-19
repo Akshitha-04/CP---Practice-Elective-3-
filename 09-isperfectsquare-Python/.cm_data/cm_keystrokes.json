@@ -1,0 +1,11 @@
+{
+    "isperfectsquare.py": [
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 17:02:49",
+            "keyStrokeInfo": "import math\r\ndef isperfectsquare(n):\r\n  #n=int(n)\r\n  if isinstance(n, int) and n>=0:\r\n    return n == (math.sqrt(n)**2)\r\n  elif isinstance(n, int) and  n<=0:\r\n    return False\r\n  elif isinstance(n, float):\r\n    return False\r\n  elif n.isdigit():\r\n    n=int(n)\r\n    return n == (math.sqrt(n)**2)\r\n  else:\r\n    return False",
+            "position": "6,1"
+        }
+    ]
+}
