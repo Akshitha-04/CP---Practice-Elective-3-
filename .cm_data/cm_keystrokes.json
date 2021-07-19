@@ -1,0 +1,11 @@
+{
+    "removeRowAndCol.py": [
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 15:07:32",
+            "keyStrokeInfo": "def removeRowAndCol(L, row, col):\r\n    L.pop(row)\r\n    for i in range(len(L)):\r\n        L[i].pop(col)\r\n    return(L)  \r\nL=[ [ 2, 3, 4, 5],\r\n        [ 8, 7, 6, 5],\r\n        [ 0, 1, 2, 3] ]\r\n\r\nrow=1\r\ncol=2\r\nprint(removeRowAndCol(L,row,col))",
+            "position": "24,1"
+        }
+    ]
+}
