@@ -1,0 +1,130 @@
+{
+    "threelines_area.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:45:07",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_threelines_area(a, b, c):\r\n\tperimeter = (a + b + c) / 2  \r\n\tarea = math.sqrt((perimeter*(perimeter-a)(perimeter-b)(perimeter-c)))\r\n\treturn int(area)",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:45:19",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:47:30",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:47:33",
+            "keyStrokeInfo": "\t",
+            "position": "11,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:43",
+            "keyStrokeInfo": "i",
+            "position": "9,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:43",
+            "keyStrokeInfo": "n",
+            "position": "9,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:44",
+            "keyStrokeInfo": "t",
+            "position": "9,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:46",
+            "keyStrokeInfo": "int",
+            "position": "9,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:48",
+            "keyStrokeInfo": "(",
+            "position": "9,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:55",
+            "keyStrokeInfo": "",
+            "position": "9,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:55",
+            "keyStrokeInfo": "",
+            "position": "9,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:51:57",
+            "keyStrokeInfo": ")",
+            "position": "9,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:52:20",
+            "keyStrokeInfo": "",
+            "position": "9,33"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:52:21",
+            "keyStrokeInfo": "  ",
+            "position": "9,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:52:21",
+            "keyStrokeInfo": "",
+            "position": "9,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:52:23",
+            "keyStrokeInfo": "int",
+            "position": "9,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:52:24",
+            "keyStrokeInfo": "",
+            "position": "9,14"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 17:55:44",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_threelines_area(a, b, c):\r\n\tperimeter = (a + b + c) / 2  \r\n\tarea = math.sqrt((perimeter*(perimeter-a)*(perimeter-b)*(perimeter-c)))\r\n\treturn int(area)\r\n",
+            "position": "5,1"
+        }
+    ]
+}
