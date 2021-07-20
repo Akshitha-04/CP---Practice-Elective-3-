@@ -10,12 +10,12 @@
 # lookAndSay([3,3,8,3,3,3,3]) == [(2,3),(1,8),(4,3)]
 
 
-def readArray():
-    a = []
-    l = int(input())
-    for i in range(l):
-        a.append(int(input()))
-    return a
+# def readArray():
+#     a = []
+#     l = int(input())
+#     for i in range(l):
+#         a.append(int(input()))
+#     return a
 
 def lookandsay(a):
     # your code goes here
