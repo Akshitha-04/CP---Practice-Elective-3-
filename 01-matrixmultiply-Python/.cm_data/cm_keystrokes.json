@@ -2449,6 +2449,20 @@
             "keyStrokeTimeStamp": "Wed Jul 21 2021 14:47:21",
             "keyStrokeInfo": "3",
             "position": "20,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:48:29",
+            "keyStrokeInfo": "",
+            "position": "20,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:48:32",
+            "keyStrokeInfo": "3",
+            "position": "20,13"
         }
     ]
 }
