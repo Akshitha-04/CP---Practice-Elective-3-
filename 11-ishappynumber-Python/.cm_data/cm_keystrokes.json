@@ -1,0 +1,39 @@
+{
+    "ishappynumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 23:03:20",
+            "keyStrokeInfo": "\r\n",
+            "position": "22,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 49,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 23:03:21",
+            "keyStrokeInfo": "def isprime(x):\r\n\tif(x==2):\r\n\t\treturn True\r\n\telse:\r\n\t\tfor i in range(2,int(x/2)+1):\r\n\t\t\tif(x%i==0):\r\n\t\t\t\treturn False\r\n\treturn True\r\ndef powerfulnumber(x):\r\n\tif(x==1):\r\n\t\treturn True\r\n\t\r\n\telse:\r\n\t\t\r\n\t\tcount=0\r\n\t\tcount2=0\r\n\t\tfor i in range(2,int(x/2)+1):\r\n\t\t\tif(x%i==0 and isprime(i)):\r\n\t\t\t\tcount+=1\r\n\t\t\t\tif(x%(i*i)==0):\r\n\t\t\t\t\tcount2+=1\r\n\t\tprint(count,count2)\r\n\t\tif(count==0 or count2==0):\r\n\t\t\treturn False\r\n\t\telif(count==count2):\r\n\t\t\treturn True\r\n\r\n\treturn False\r\n\r\n\r\n\r\n\r\ndef nthpowerfulnumber(n):\r\n\t# Your code goes here\r\n\tfound=1\r\n\tguess=1\r\n\tcount=0\r\n\twhile(found):\r\n\t\tif(powerfulnumber(guess)):\r\n\t\t    \r\n\t\t\tif(n==count):\r\n\t\t\t\tfound=0\r\n\t\t\t\treturn guess\r\n\t\t\t\r\n\t\t\tguess=guess+1\r\n\t\t\tcount+=1\r\n\t\t\t\r\n\t\telse:\r\n\t\t\tguess=guess+1",
+            "position": "23,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 48,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 23:03:24",
+            "keyStrokeInfo": "",
+            "position": "23,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 30,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 23:03:54",
+            "keyStrokeInfo": "def numSquareSum(n):\r\n    squareSum = 0;\r\n    while(n>0):\r\n        squareSum += (n % 10) * (n % 10);\r\n        n = int(n / 10);\r\n    return squareSum;\r\n\r\n# method return true if\r\n# n is Happy number\r\ndef ishappynumber(n):\r\n    # initialize slow\r\n    # and fast by n\r\n    slow = n;\r\n    fast = n;\r\n    while(True):\r\n\r\n        # move slow number\r\n        # by one iteration\r\n        slow = numSquareSum(slow);\r\n        # move fast number\r\n        # by two iteration\r\n        fast = numSquareSum(numSquareSum(fast));\r\n        if(slow != fast):\r\n            continue;\r\n        else:\r\n            break;\r\n\r\n    # if both number meet at 1,\r\n    # then return true\r\n    return (slow == 1);",
+            "position": "23,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 23:04:08",
+            "keyStrokeInfo": "",
+            "position": "20,1"
+        }
+    ]
+}
