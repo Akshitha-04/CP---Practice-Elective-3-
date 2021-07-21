@@ -1,0 +1,214 @@
+{
+    "nthpowerfulnumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 55,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:54:12",
+            "keyStrokeInfo": "import math\r\n\r\n# function to check if\r\n# the number is powerful\r\ndef isPowerful(n):\r\n\r\n    # First divide the number repeatedly by 2\r\n    while (n % 2 == 0):\r\n\r\n        power = 0\r\n        while (n % 2 == 0):\r\n\r\n            n = n//2\r\n            power = power + 1\r\n\r\n\r\n        # If only 2 ^ 1 divides\r\n        # n (not higher powers),\r\n        # then return false\r\n        if (power == 1):\r\n            return False\r\n\r\n\r\n    # if n is not a power of 2\r\n    # then this loop will execute\r\n    # repeat above process\r\n    for factor in range(3, int(math.sqrt(n))+1, 2):\r\n\r\n        # Find highest power of\r\n        # \"factor\" that divides n\r\n        power = 0\r\n        while (n % factor == 0):\r\n\r\n            n = n//factor\r\n            power = power + 1\r\n\r\n\r\n        # If only factor ^ 1 divides\r\n        # n (not higher powers),\r\n        # then return false\r\n        if (power == 1):\r\n            return false\r\n\r\n\r\n     # n must be 1 now if it\r\n     # is not a prime numenr.\r\n     # Since prime numbers are\r\n     # not powerful, we return\r\n     # false if n is not 1.\r\n    return (n == 1)\r\n\r\n# Driver code\r\n\r\nprint(\"YES\" if isPowerful(20) else \"NO\")\r\nprint(\"YES\" if isPowerful(27) else \"NO\")\r\n",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:54:29",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:54:41",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:55:51",
+            "keyStrokeInfo": "nthpowerfulnumber",
+            "position": "56,16"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:00",
+            "keyStrokeInfo": "nthpowerfulnumber",
+            "position": "57,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:08",
+            "keyStrokeInfo": "i",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:09",
+            "keyStrokeInfo": "m",
+            "position": "7,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:09",
+            "keyStrokeInfo": "p",
+            "position": "7,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:09",
+            "keyStrokeInfo": "o",
+            "position": "7,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:10",
+            "keyStrokeInfo": "r",
+            "position": "7,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:10",
+            "keyStrokeInfo": "t",
+            "position": "7,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:10",
+            "keyStrokeInfo": " ",
+            "position": "7,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:11",
+            "keyStrokeInfo": "m",
+            "position": "7,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:11",
+            "keyStrokeInfo": "a",
+            "position": "7,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:11",
+            "keyStrokeInfo": "t",
+            "position": "7,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:12",
+            "keyStrokeInfo": "h",
+            "position": "7,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:17",
+            "keyStrokeInfo": "math",
+            "position": "7,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:53",
+            "keyStrokeInfo": "math",
+            "position": "7,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:53",
+            "keyStrokeInfo": "",
+            "position": "7,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:53",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:54",
+            "keyStrokeInfo": "isPowerful",
+            "position": "57,16"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:54",
+            "keyStrokeInfo": "isPowerful",
+            "position": "56,16"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:54",
+            "keyStrokeInfo": "\t# Your code goes here\r\n\tpass\r\nimport math\r\n\r\n# function to check if\r\n# the number is powerful\r\n\r\n\r\n    # First divide the number repeatedly by 2",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:55",
+            "keyStrokeInfo": "def isPowerful(n):",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 55,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 14:56:55",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 29,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 22:28:02",
+            "keyStrokeInfo": "import math\r\n\r\ndef isPowerful(n):\r\n\twhile (n % 2 == 0):\r\n\t\ta = 0\r\n\t\twhile (n % 2 == 0):\r\n\t\t\tn = n // 2\r\n\t\t\ta = a + 1\r\n\t\tif ( a == 1):\r\n\t\t\treturn False\r\n\tfor power in range(3, int(math.sqrt(n))+1, 2):\r\n\t\ta = 0\r\n\t\twhile (n % power == 0):\r\n\t\t\tn = n // power\r\n\t\t\ta = a + 1\r\n\t\tif (a == 1):\r\n\t\t\treturn False\r\n\treturn (n == 1)\r\n\r\ndef nthPowerfulNumber(n):\r\n\tfound = 0\r\n\tguess = 0\r\n\twhile (found <= abs(n)):\r\n\t\tguess += 1\r\n\t\tif(isPowerful(guess)):\r\n\t\t\tfound += 1\r\n\treturn guess\r\n\r\nprint(nthPowerfulNumber(int(input()))",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 22:28:08",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 22:28:09",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 22:28:09",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 22:28:19",
+            "keyStrokeInfo": ")",
+            "position": "35,38"
+        }
+    ]
+}
