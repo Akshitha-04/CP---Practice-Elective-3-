@@ -18,8 +18,7 @@ def multiplyPolynomials(p1, p2):
         for j in range(len_b):
             result[i+j]+=p1[i]*p2[j]
     return result
-    # Your code goes here...
-    pass
+   
 
 # Write your own test cases
 p1=[2,0,3]
