@@ -1,0 +1,25 @@
+{
+    "playstep2.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 17:40:24",
+            "keyStrokeInfo": "\r\n",
+            "position": "38,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 17:40:25",
+            "keyStrokeInfo": "def playstep2(hand, dice):\r\n\t# your code goes here\r\n\thand = str(hand)\r\n\tdice = str(dice)\r\n\r\n\t#print(hand,dice)\r\n\tif len(hand) == len(set(hand)):\r\n\t\th=hand[0:1]+dice[-1:]+dice[-2:-1]\r\n\t\td=dice[0:2]\r\n\t\th1=''.join(sorted(h,reverse=True))\r\n\t\treturn (int(h1),int(d))\r\n\telif len(hand) != len(set(hand)) and len(str(dice))<=2:\r\n\t\th=hand[1:]+dice[-1:]\r\n\t\td=dice[0:1]\r\n\t\th1=''.join(sorted(h,reverse=True))\r\n\t\treturn (int(h1),int(d))\r\n\telif len(hand) != len(set(hand)) and len(str(dice))>2:\r\n\t\th=hand[1:]+dice[-1:]\r\n\t\td=dice[0:2]\r\n\t\th1=''.join(sorted(h,reverse=True))\r\n\t\treturn (int(h1),int(d))",
+            "position": "39,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Jul 22 2021 17:40:30",
+            "keyStrokeInfo": "",
+            "position": "36,1"
+        }
+    ]
+}
