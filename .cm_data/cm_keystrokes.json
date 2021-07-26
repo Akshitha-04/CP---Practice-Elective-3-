@@ -7,5 +7,14 @@
             "keyStrokeInfo": "def vowelCount(s):\r\n    count=0\r\n    \r\n    for i in range(len(s)):\r\n        if(\"a\"==s[i] or \"e\"==s[i] or \"i\"==s[i] or \"o\"==s[i] or \"u\"==s[i]):\r\n            count=count+1\r\n    return count\r\nprint(vowelCount(\"aercious\"))",
             "position": "1,1"
         }
+    ],
+    "ispalindromeprime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 11:34:33",
+            "keyStrokeInfo": "def ispalindromeprime(n):\r\n    \r\n    reverse=int(str(n)[::-1])\r\n    if n==reverse:\r\n        count=0\r\n        # if x>1:\r\n        for i in range(1,n+1):\r\n            if(n%i)==0:\r\n                count = count+1\r\n        if count == 2:\r\n            return True\r\n        else:\r\n            return False\r\n    else:\r\n        return False\r\nprint(ispalindromeprime(2))",
+            "position": "1,1"
+        }
     ]
 }
