@@ -1,0 +1,11 @@
+{
+    "vowelcount.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 11:31:08",
+            "keyStrokeInfo": "def vowelCount(s):\r\n    count=0\r\n    \r\n    for i in range(len(s)):\r\n        if(\"a\"==s[i] or \"e\"==s[i] or \"i\"==s[i] or \"o\"==s[i] or \"u\"==s[i]):\r\n            count=count+1\r\n    return count\r\nprint(vowelCount(\"aercious\"))",
+            "position": "1,1"
+        }
+    ]
+}
