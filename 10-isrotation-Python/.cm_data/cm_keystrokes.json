@@ -1,0 +1,11 @@
+{
+    "isrotation.py": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 12:43:05",
+            "keyStrokeInfo": "\r\ndef isrotation(x, y):\r\n\t# Your code goes here\r\n\tpass",
+            "position": "7,1"
+        }
+    ]
+}
