@@ -1,0 +1,25 @@
+{
+    "hasduplicates.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:41:38",
+            "keyStrokeInfo": "\r\n",
+            "position": "8,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:41:40",
+            "keyStrokeInfo": "def hasduplicates(L):\r\n    # your code goes here\r\n    a=[]\r\n    for i in L:\r\n        for j in i:\r\n            a.append(j)\r\n    for i in range(len(a)):\r\n        for j in range(i+1,len(a)):\r\n            if (a[i]==a[j]):\r\n                return True\r\n      \r\n    return False",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:41:44",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        }
+    ]
+}
