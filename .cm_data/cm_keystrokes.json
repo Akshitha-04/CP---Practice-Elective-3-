@@ -1,0 +1,32 @@
+{
+    "non_destructive_remove_repeats.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:44:13",
+            "keyStrokeInfo": "\r\n",
+            "position": "18,36"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:44:14",
+            "keyStrokeInfo": "l=[]\r\ndef nondestructiveRemoveRepeats(L):\r\n    for i in L:\r\n        if i not in l:\r\n            l.append(i)\r\n            continue\r\n            \r\n    return l\r\nprint(nondestructiveRemoveRepeats([1, 2, 3, 5, 3, 3, 2, 1, 7, 5])",
+            "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:44:26",
+            "keyStrokeInfo": "# ",
+            "position": "18,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 10:45:35",
+            "keyStrokeInfo": ")",
+            "position": "27,66"
+        }
+    ]
+}
