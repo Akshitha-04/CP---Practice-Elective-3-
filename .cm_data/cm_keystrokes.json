@@ -1,0 +1,32 @@
+{
+    "areAnagrams.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:59:45",
+            "keyStrokeInfo": "def areAnagrams(s1, s2):\r\n    m = s1.lower()\r\n    n = s2.lower()\r\n    return (len(m) == len(n))\r\n\r\nprint(areAnagrams(input(), input()))",
+            "position": "16,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:59:56",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 12:04:32",
+            "keyStrokeInfo": "4",
+            "position": "18,25"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 12:04:35",
+            "keyStrokeInfo": "2",
+            "position": "18,35"
+        }
+    ]
+}
