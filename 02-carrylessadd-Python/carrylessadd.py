@@ -5,6 +5,17 @@
 # carryless sum. As the paper demonstrates, fun_carrylessadd(785, 376) returns 51.
 
 
-def fun_carrylessadd(x, y):
-	return 0
 
+
+def fun_carrylessadd(x, y):
+	res = 0
+	sum = 0
+	a = 1
+	while(x):
+		sum = ((x % 10) + (y % 10))
+		sum = sum % 10
+		res = (sum*a) + res
+		x = x // 10
+		y = y // 10
+		a = a * 10
+	return res
