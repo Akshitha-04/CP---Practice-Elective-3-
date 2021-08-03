@@ -6,5 +6,32 @@
 # fun_nth_tidynumber(15) = 17
 # fun_nth_tidynumber(35) = 46
 
+
+
+# definingsumofdigits
+def sumofdigits(n):
+    n=abs(n)
+    if (n < 10):
+        return True #suppose the number is 21
+    
+    if(n >= 10):
+        while(n > 0):
+            ones = n % 10
+            n = n//10
+            if (n % 10 > ones):
+                return False
+        return True
+
 def fun_nth_tidynumber(n):
-    return 0
+
+    if(n < 0):
+        abs(n)
+    if (n == 0):
+        return 1
+    a = 0
+    b = 0
+    while(a <= n):
+        b = b + 1
+        if(sumofdigits(b)):
+            a = a + 1
+    return b

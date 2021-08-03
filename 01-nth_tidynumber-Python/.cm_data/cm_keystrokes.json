@@ -1,0 +1,95 @@
+{
+    "nth_tidynumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:14",
+            "keyStrokeInfo": "\r\n",
+            "position": "10,13"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:15",
+            "keyStrokeInfo": "# definingsumofdigits\r\ndef sumofdigits(n):\r\n    n=abs(n)\r\n    if (n < 10):\r\n        return True #suppose the number is 21\r\n    \r\n    if(n >= 10):\r\n        while(n > 0):\r\n            ones = n % 10\r\n            n = n//10\r\n            if (n % 10 > ones):\r\n                return False\r\n        return True\r\n\r\ndef nthTidyNumber(n):\r\n\r\n    if(n < 0):\r\n        abs(n)\r\n    if (n == 0):\r\n        return 1\r\n    a = 0\r\n    b = 0\r\n    while(a <= n):\r\n        b = b + 1\r\n        if(sumofdigits(b)):\r\n            a = a + 1\r\n    return b",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:19",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:24",
+            "keyStrokeInfo": "def fun_nth_tidynumber(n):",
+            "position": "25,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:27",
+            "keyStrokeInfo": "",
+            "position": "10,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:28",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 11:54:28",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        }
+    ]
+}
